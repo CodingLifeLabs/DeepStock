@@ -10,6 +10,8 @@
         theme: {
           extend: {
             colors: {
+              primary: 'var(--primary)',
+              accent: 'var(--accent)',
               slate: {
                 850: '#151e2e',
                 900: '#0f172a',
@@ -39,10 +41,19 @@
       };
     </script>
     <style>
+      :root {
+        /* Default Theme (Ocean) */
+        --primary: #3b82f6;
+        --accent: #a855f7;
+        --glow-start: rgba(30, 58, 138, 0.2);
+        --glow-end: rgba(88, 28, 135, 0.1);
+      }
+
       body {
         background-color: #020617;
         color: #f8fafc;
         font-family: 'Inter', sans-serif;
+        transition: color 0.3s, background-color 0.3s;
       }
       /* Custom Scrollbar */
       ::-webkit-scrollbar {

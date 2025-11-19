@@ -20,10 +20,10 @@ const DipCalculator: React.FC<DipCalculatorProps> = ({ data }) => {
   };
 
   return (
-    <div className="w-full bg-slate-900 border border-slate-800 rounded-2xl overflow-hidden shadow-2xl">
+    <div className="w-full bg-slate-900 border border-slate-800 rounded-2xl overflow-hidden shadow-2xl transition-colors">
       <div className="p-6 border-b border-slate-800 bg-slate-900/50 flex items-center gap-3">
-        <div className="p-2 bg-blue-500/10 rounded-lg">
-           <ArrowDown className="w-5 h-5 text-blue-400" />
+        <div className="p-2 bg-primary/10 rounded-lg">
+           <ArrowDown className="w-5 h-5 text-primary" />
         </div>
         <h3 className="text-lg font-semibold text-white">저점 매수 시나리오 (Dip Calculator)</h3>
       </div>

@@ -22,3 +22,22 @@ export interface MarketStatus {
   status: 'loading' | 'idle' | 'success' | 'error';
   message?: string;
 }
+
+export interface WatchlistItem {
+  ticker: string;
+  price: number;
+  currency: string;
+  change: number;
+  sparkline: number[];
+}
+
+export interface Theme {
+  id: string;
+  name: string;
+  colors: {
+    primary: string;
+    accent: string;
+    glowStart: string;
+    glowEnd: string;
+  };
+}

@@ -9,8 +9,9 @@ import {
   ExternalLink,
   RefreshCw,
   DollarSign,
-  Plus,
-  X
+  Trash2,
+  Palette,
+  Check
 } from 'lucide-react';
 
 export { 
@@ -20,9 +21,10 @@ export {
   Activity, 
   ArrowDown, 
   AlertCircle, 
-  ExternalLink,
+  ExternalLink, 
   RefreshCw,
   DollarSign,
-  Plus,
-  X
+  Trash2,
+  Palette,
+  Check
 };

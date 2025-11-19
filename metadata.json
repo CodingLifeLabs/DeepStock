@@ -1,0 +1,5 @@
+{
+  "name": "StockDeepDive",
+  "description": "Real-time stock analyzer that calculates drawdowns from highs, RSI, and potential dip-buying price targets using AI-powered search grounding.",
+  "requestFramePermissions": []
+}
